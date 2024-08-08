@@ -95,7 +95,7 @@ export default function Home() {
       </div>
       {/* main ection */}
       <div className=" flex flex-col items-center justify-center text-center py-12 bg-purple-600">
-        <p className="text-5xl font-medium mb-4">TikTok Video Download</p>
+        <p className="text-5xl font-medium mb-4">Social Media Video Download</p>
         <p className="text-2xl font-semibold ">
           Without Watermark Fast & All devices
         </p>
