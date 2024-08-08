@@ -27,7 +27,7 @@ export default function DownloadPage({ response }:  any ) {
         <div className="flex w-full sm:flex-row sm:justify-between flex-col p-4 items-center rounded-xl bg-slate-200 gap-3">
           <img src={pic} className=' max-h-40 '/>
           <p className="font-semibold">{caption}</p>
-          <NavigationMenu className='mr-10'>
+          <NavigationMenu className='sm:mr-10'>
             <NavigationMenuList>
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="sm:text-md text-white hover:bg-neutral-800 focus:bg-neutral-800 bg-black">
