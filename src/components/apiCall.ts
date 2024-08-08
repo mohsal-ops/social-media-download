@@ -3,7 +3,7 @@ export default async function titokDownload({link}:{link:string}) {
     const options = {
         method: 'GET',
         headers: {
-            'x-rapidapi-key': '95645dc66amshd46b97ea279fd35p156efbjsn6378dcd2d7ca',
+            'x-rapidapi-key': 'baa91a90a7msh8cfc338970835e8p130d70jsn7415d4471102',
             'x-rapidapi-host': 'social-media-video-downloader.p.rapidapi.com'
         }
     };
@@ -21,7 +21,7 @@ export  async function instagramDownload({ link }: { link: string }) {
     const options = {
         method: 'GET',
         headers: {
-            'x-rapidapi-key': '95645dc66amshd46b97ea279fd35p156efbjsn6378dcd2d7ca',
+            'x-rapidapi-key': 'baa91a90a7msh8cfc338970835e8p130d70jsn7415d4471102',
             'x-rapidapi-host': 'social-media-video-downloader.p.rapidapi.com'
         }
     };
@@ -39,7 +39,7 @@ export async function facebookDownload({ link }: { link: string }) {
     const options = {
         method: 'GET',
         headers: {
-            'x-rapidapi-key': '95645dc66amshd46b97ea279fd35p156efbjsn6378dcd2d7ca',
+            'x-rapidapi-key': 'baa91a90a7msh8cfc338970835e8p130d70jsn7415d4471102',
             'x-rapidapi-host': 'social-media-video-downloader.p.rapidapi.com'
         }
     };
@@ -58,7 +58,7 @@ export async function youtubeDownload({ link }: { link: string }) {
     const options = {
         method: 'GET',
         headers: {
-            'x-rapidapi-key': '95645dc66amshd46b97ea279fd35p156efbjsn6378dcd2d7ca',
+            'x-rapidapi-key': 'baa91a90a7msh8cfc338970835e8p130d70jsn7415d4471102',
             'x-rapidapi-host': 'social-media-video-downloader.p.rapidapi.com'
         }
     }

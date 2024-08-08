@@ -24,7 +24,7 @@ export default function DownloadPage({ response }:  any ) {
   return (
     <div className="flex mx-3 flex-col mt-4 min-h-96">
       <div className="flex sm:gap-3 min-h-40 ">
-        <div className="flex lg:w-[80%] w-full sm:flex-row sm:justify-between flex-col p-4 items-center rounded-xl bg-slate-200 gap-3">
+        <div className="flex w-full sm:flex-row sm:justify-between flex-col p-4 items-center rounded-xl bg-slate-200 gap-3">
           <img src={pic} />
           <p className="font-semibold">{caption}</p>
           <NavigationMenu>
