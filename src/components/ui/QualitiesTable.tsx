@@ -17,7 +17,8 @@ type qualitiesProp = {
     qualities: item[]
 }
 
-export default function QualitiesTable({qualities}:qualitiesProp) {
+export default function QualitiesTable({ qualities }: qualitiesProp) {
+    console.log(qualities)
   return (
     <>
       <div className="border-black w-[230px] sm:w-auto  border">
@@ -39,7 +40,7 @@ export default function QualitiesTable({qualities}:qualitiesProp) {
                 <TableCell>
                   <button className="flex  hover:bg-neutral-800 px-2 justify-center text-white bg-black">
                     <a
-                      href=""
+                      href={item.link}
                       className="flex gap-2 text-xs font-medium items-center w-full h-full"
                     >
                       <Download className="w-3" />
